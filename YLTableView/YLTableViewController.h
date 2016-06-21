@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YLTableViewTableViewController.h
 //  YLTableView
 //
 //  Created by 鲁玉兰 on 16/6/20.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
+
+@interface YLTableViewController : UITableViewController<UIScrollViewDelegate>
 
 @end
-
